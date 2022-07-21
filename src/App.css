@@ -1,0 +1,69 @@
+#root {
+  margin: 10px;
+}
+
+
+.categories {
+  color: red;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.prueba {
+  color: rgb(8, 15, 75);
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+.active {
+  color: red;
+}
+
+.bookline {
+  display: flex;
+}
+
+.book-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid grey;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 5px;
+}
+
+.form {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 20px;
+}
+
+.category {
+  margin: 0;
+}
+
+.bookname {
+  margin: 0;
+}
+
+.authorname {
+  margin: 0;
+}
+
+
