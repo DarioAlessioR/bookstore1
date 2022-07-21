@@ -7,6 +7,6 @@ const Forms = () => (
       <button type="button">Add book</button>
     </div>
   </section>
-)
+);
 
 export default Forms;

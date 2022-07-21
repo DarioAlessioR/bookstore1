@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+import React from 'react';
 
 const Singlebook = (props) => {
   const { title, author, categories } = props;
@@ -18,7 +19,7 @@ const Singlebook = (props) => {
       </div>
 
       <div className="bookstatus">
-        <i class="fa-solid fa-spinner"></i>
+        <i className="fa-solid fa-spinner" />
         <h4>75% completed</h4>
       </div>
 
@@ -29,8 +30,7 @@ const Singlebook = (props) => {
       </div>
 
     </div>
-  )
+  );
 };
-
 
 export default Singlebook;

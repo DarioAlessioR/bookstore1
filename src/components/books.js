@@ -1,6 +1,5 @@
-import Singlebook from "./singlebook";
-import Forms from "./forms";
-
+import Singlebook from './singlebook';
+import Forms from './forms';
 
 const Books = () => (
   <section className="booklist">
@@ -29,6 +28,6 @@ const Books = () => (
     <Forms />
 
   </section>
-)
+);
 
 export default Books;

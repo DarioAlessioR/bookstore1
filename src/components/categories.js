@@ -1,7 +1,7 @@
 const Categories = () => (
-<section className="categories">
-  <button>Check status</button>  
-</section>
+  <section className="categories">
+    <button type="button">Check status</button>
+  </section>
 );
 
 export default Categories;

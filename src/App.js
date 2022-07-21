@@ -9,7 +9,6 @@ import Navbar from './components/navbar';
 import Categories from './components/categories';
 import Books from './components/books';
 
-
 function App() {
   return (
     <Router>
