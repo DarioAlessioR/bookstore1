@@ -1,6 +1,21 @@
 const ADDED_BOOK = 'USER_ADDED_BOOK';
 const REMOVED_BOOK = 'USER_REMOVED_BOOK';
-const initialState = [];
+const initialState = [
+  {
+    title: 'Sapiens: A Brief History of Humankind',
+    author: 'Yuval Noah Harari',
+    categories: 'History, Science, Philosophy',
+  },
+  {
+    title: 'Thinking, Fast and Slow',
+    author: 'Daniel Kahneman',
+    categories: ' Science, Psicology',
+  },
+  {
+    title: 'Meditations',
+    author: 'Marcus Aurelius y Gregory Hays',
+    categories: 'History, Science, Philosophy',
+  }];
 
 const bookReducer = (state = initialState, action) => {
   switch (action.type) {
