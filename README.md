@@ -37,7 +37,7 @@ Please run: npm run build and then npm start to see project displayed in your br
 
 ## Live demo:
 
-To see the project deployed please visit anyone  of the following links:
+To see the project deployed please visit anyone of the following links:
 
 Netlify:   
 
