@@ -6,21 +6,21 @@ const initialState = [
     id: '1',
     title: 'Sapiens: A Brief History of Humankind',
     author: 'Yuval Noah Harari',
-    categories: 'History, Science, Philosophy',
+    category: 'History, Science, Philosophy',
   },
   {
     key: '2',
     id: '2',
     title: 'Thinking, Fast and Slow',
     author: 'Daniel Kahneman',
-    categories: ' Science, Psicology',
+    category: ' Science, Psicology',
   },
   {
     key: '3',
     id: '3',
     title: 'Meditations',
     author: 'Marcus Aurelius & Gregory Hays',
-    categories: 'History, Science, Philosophy',
+    category: 'History, Science, Philosophy',
   }];
 
 const bookReducer = (state = initialState, action) => {

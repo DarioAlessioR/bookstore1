@@ -26,6 +26,7 @@ const Form = () => {
     document.querySelector('form').reset();
 
     const newBook = {
+      key: uuidv4(),
       id: uuidv4(),
       title: formState.title[0],
       author: formState.author[0],
