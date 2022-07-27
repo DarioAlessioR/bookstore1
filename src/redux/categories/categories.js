@@ -4,14 +4,14 @@ const initialState = [];
 const categoriesReducer = (state = initialState, action) => {
   switch (action.type) {
     case CHECKED_STATUS:
-      return 'Under construction...';
+      return { status: 'Under construction...' };
     default:
       return state;
   }
 };
 
-const checkStatus = () => ({
+export const checkStatus = () => ({
   type: CHECKED_STATUS,
 });
 
-export default { categoriesReducer, checkStatus };
+export default categoriesReducer;

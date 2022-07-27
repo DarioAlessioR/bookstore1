@@ -23,5 +23,3 @@ const Navbar = () => (
 );
 
 export default Navbar;
-
-// <FontAwesomeIcon icon="far fa-user" />
