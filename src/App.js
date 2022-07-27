@@ -9,8 +9,8 @@ import Navbar from './components/navbar';
 import Categories from './components/categories';
 import Books from './components/books';
 
-function App() {
-  return (
+const App = () => (
+  <>
     <Router>
       <Navbar />
       <Routes>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/*" element={<Books />} />
       </Routes>
     </Router>
-  );
-}
+  </>
+);
 
 export default App;

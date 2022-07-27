@@ -1,33 +1,28 @@
+import { useSelector } from 'react-redux';
 import Singlebook from './singlebook';
 import Forms from './forms';
 
-const Books = () => (
-  <section className="booklist">
-    <div className="bookline">
-      <Singlebook
-        title="Sapiens: A Brief History of Humankind"
-        author="Yuval Noah Harari"
-        categories="History, Science, Philosophy"
-      />
-    </div>
-    <div className="bookline">
-      <Singlebook
-        title="Thinking, Fast and Slow"
-        author="Daniel Kahneman"
-        categories=" Science, Psicology"
-      />
-    </div>
-    <div className="bookline">
-      <Singlebook
-        title="Meditations"
-        author="Marcus Aurelius y Gregory Hays"
-        categories="History, Science, Philosophy"
-      />
-    </div>
+const Books = () => {
+  const bookList = useSelector((state) => state.bookReducer);
 
-    <Forms />
+  return (
+    <section className="booklist">
+      <div className="bookline">
+        {bookList.map((book) => (
+          <Singlebook
+            key={book.id}
+            id={book.id}
+            title={book.title}
+            author={book.author}
+            categories={book.category}
+          />
+        ))}
+      </div>
 
-  </section>
-);
+      <Forms />
+
+    </section>
+  );
+};
 
 export default Books;
