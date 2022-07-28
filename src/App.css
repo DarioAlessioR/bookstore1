@@ -273,4 +273,5 @@ select {
   width: 150px;
   height: 42px;
   border-radius: 7px;
+  opacity: 0.7;
 }
