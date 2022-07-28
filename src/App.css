@@ -253,7 +253,7 @@ select {
   font-size: 1rem;
   color: #121212;
   opacity: 0.5;
-  border: none
+  border: none;
 }
 
 .form-input select {
