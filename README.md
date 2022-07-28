@@ -41,7 +41,7 @@ Please run: npm run build and then npm start to see project displayed in your br
 
 To see the project deployed please visit anyone of the following links:
 
-Netlify: https://effervescent-dodol-706742.netlify.app
+Netlify:  https://effervescent-dodol-706742.netlify.app
 
 ##  Authors
 👤 Author1
