@@ -9,14 +9,14 @@ const Navbar = () => (
       </div>
       <ul className="links">
         <li>
-          <NavLink to="/books">Books</NavLink>
+          <NavLink to="/books">BOOKS</NavLink>
         </li>
         <li>
-          <NavLink to="/categories">Categories</NavLink>
+          <NavLink to="/categories">CATEGORIES</NavLink>
         </li>
       </ul>
       <div className="usericon">
-        <i className="far fa-user" />
+        <i className="fa-solid fa-circle-user" />
       </div>
     </nav>
   </header>
