@@ -32,10 +32,10 @@ const Singlebook = ({
 
       <div className="bookstatus">
         <div className="iconspinner">
-          <i className="fa-solid fa-spinner" />
+          <i className="fa-solid fa-circle-notch" />
         </div>
         <div className="progress">
-          <h4>75%</h4>
+          <h4>96%</h4>
           <p>Completed</p>
         </div>
       </div>
@@ -51,3 +51,8 @@ const Singlebook = ({
 };
 
 export default Singlebook;
+
+/*
+<i class="fa-solid fa-circle-notch"></i>
+<i className="fa-solid fa-spinner" />
+*/
