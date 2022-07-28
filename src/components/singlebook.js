@@ -1,24 +1,26 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { deleteBook } from '../redux/books/books';
 
-const Singlebook = (props) => {
+const Singlebook = ({
+  title,
+  author,
+  category,
+  id,
+}) => {
   const dispatch = useDispatch();
 
-  const {
-    id, title, author, categories,
-  } = props;
-
-  const handleRemoveBook = () => {
-    dispatch(removeBook(id));
+  const handleRemoveBook = (e) => {
+    e.preventDefault();
+    dispatch(deleteBook(id));
   };
 
   return (
     <div className="book-container">
 
       <div className="book">
-        <p className="category">{categories}</p>
+        <p className="category">{category}</p>
         <h2 className="bookname">{title}</h2>
         <h3 className="authorname">{author}</h3>
         <div className="acctionbuttons">

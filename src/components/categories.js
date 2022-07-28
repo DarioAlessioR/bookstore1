@@ -18,3 +18,18 @@ const Categories = () => {
 };
 
 export default Categories;
+
+/* Code used for fetching the API to get the app Id (to create account):
+const postId = async () => {
+  const response = await fetch('https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/', {
+    method: 'POST',
+  });
+  const data = await response.text();
+  console.log(data);
+  return data;
+};
+postId();
+
+Id retorned for Dario Alessio project:
+id = dlfFL7qUFyyxQFXdVAYi
+*/
