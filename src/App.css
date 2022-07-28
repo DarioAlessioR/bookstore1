@@ -1,5 +1,6 @@
 #root {
-  margin: 10px;
+  padding: 4%;
+  background-color: #f5f6fa;
 }
 
 .categories {
@@ -15,36 +16,58 @@
 }
 
 .nav {
-  padding: 20px;
+  padding: 24px 4%;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .links {
   list-style: none;
   display: flex;
-  width: 15%;
-  justify-content: space-between;
+  flex-grow: 1;
+  grid-gap: 40px;
+  gap: 40px;
+  opacity: 0.6;
+  font-family: sans-serif;
 }
 
 .active {
-  color: red;
+  opacity: 1;
+  color: rgb(1, 1, 1);
+  font-weight: 500;
+}
+
+.logo a {
+  font-weight: 700;
+  color: #0290ff;
+  font-size: 1.875rem;
+  text-decoration: none;
+}
+
+.links li a {
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
 .bookline {
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
 .book-container {
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   width: 90%;
-  border: 1px solid grey;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-bottom: 5px;
+  border: 1px solid rgb(235, 244, 245);
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 15px;
+  border-radius: 4px;
 }
 
 .form {
@@ -56,12 +79,199 @@
 
 .category {
   margin: 0;
+  color: #121212;
+  font-weight: 700;
+  font-size: 0.875rem;
+  opacity: 0.5;
 }
 
 .bookname {
   margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0.188rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  width: 370px;
 }
 
 .authorname {
   margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.975rem;
+  font-weight: 100;
+  color: #4386bf;
+  opacity: 0.6;
+}
+
+.usericon {
+  color: #0290ff;
+  font-size: 2rem;
+}
+
+.booklist {
+  background-color: #fafafa;
+  padding-top: 30px;
+}
+
+.actionbuttons {
+  padding-top: 15px;
+  margin-left: -5px;
+}
+
+.comment {
+  background-color: transparent;
+  border-color: #fff;
+  border-bottom: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.975rem;
+  font-weight: 100;
+  color: #4386bf;
+  opacity: 0.7;
+  align-items: center;
+  cursor: pointer;
+  border-right: #bccedd 1px solid;
+}
+
+.remove {
+  background-color: transparent;
+  border-color: #fff;
+  border-bottom: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.975rem;
+  font-weight: 100;
+  color: #4386bf;
+  opacity: 0.7;
+  align-items: center;
+  cursor: pointer;
+  border-right: #bccedd 1px solid;
+}
+
+.edit {
+  background-color: transparent;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.975rem;
+  font-weight: 100;
+  color: #4386bf;
+  opacity: 0.7;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconspinner i {
+  color: #4386bf;
+  font-size: 4.5rem;
+}
+
+.bookstatus {
+  display: flex;
+}
+
+.progress {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress h4 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 0;
+  color: #4e5253;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.progress p {
+  opacity: 0.6;
+}
+
+.bookchapter {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bookchapter h4 {
+  font-size: 0.8rem;
+  opacity: 0.3;
+}
+
+.bookchapter h5 {
+  font-size: 1.1rem;
+  color: #4e5253;
+  font-weight: 100;
+}
+
+.progressbutton {
+  background-color: #0290ff;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.775rem;
+  font-weight: 100;
+  color: #fff;
+  opacity: 0.7;
+  align-items: center;
+  cursor: pointer;
+  width: 150px;
+  height: 28px;
+  border-radius: 7px;
+}
+
+.form-container {
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 92.5%;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: #cbd6d8 1px solid;
+}
+
+form h3 {
+  color: rgb(145, 146, 155);
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input input {
+  height: 40px;
+  width: 370px;
+  border-radius: 7px;
+  border-color: #fff;
+  border-top: none;
+  border-left: none;
+}
+
+.form-input input::placeholder {
+  font-size: 1rem;
+  color: #121212;
+  opacity: 0.5;
+}
+
+select {
+  font-size: 1rem;
+  color: #121212;
+  opacity: 0.5;
+  border: none;
+}
+
+.form-input select {
+  height: 46px;
+  background-color: #fff;
+}
+
+.form-button {
+  background-color: #0290ff;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.775rem;
+  font-weight: 600;
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+  width: 150px;
+  height: 42px;
+  border-radius: 7px;
+  opacity: 0.7;
 }

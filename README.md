@@ -29,6 +29,8 @@ Major languages: Javascript, HTML, CSS
 Frameworks: webpack, Jest, React, Redux
 Technologies used: VSC, Github, Gitflow
 
+## Project diagram:
+C:\Users\Dario\Documents\MICROVERSE\Module3\bookstore1\images\diagram.jpg
 
 ## Getting Started:
 Clone the repository in your local machine using git clone.

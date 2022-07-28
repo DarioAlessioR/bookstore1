@@ -38,7 +38,7 @@ const Form = () => {
 
   return (
     <form onSubmit={submitBookToStore} className="form-container">
-      <h2>ADD NEW BOOK</h2>
+      <h3>ADD NEW BOOK</h3>
       <div className="form-input">
         <input
           name="title"
@@ -60,7 +60,7 @@ const Form = () => {
           onChange={handleChange}
           required
         >
-          <option value="">Select a category</option>
+          <option className="option" value="">Select a category</option>
           <option value="Novel">Novel</option>
           <option value="Essay">Essay</option>
           <option value="History">History</option>
@@ -68,7 +68,7 @@ const Form = () => {
           <option value="Litterature">Litterature</option>
         </select>
 
-        <button type="submit">ADD BOOK</button>
+        <button type="submit" className="form-button">ADD BOOK</button>
       </div>
     </form>
   );
