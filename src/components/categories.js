@@ -11,8 +11,8 @@ const Categories = () => {
 
   return (
     <section className="categories">
-      <button type="button" onClick={check}>Check status</button>
-      <h2>{status}</h2>
+      <button type="button" onClick={check}>Please, click to read some categories definitions from Oxford Languages</button>
+      <p>{status}</p>
     </section>
   );
 };
